@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "dom", "dom.iterable"],
+    "module": "commonjs",
+    "outDir": "./dist",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "jsx": "react",
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
